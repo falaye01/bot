@@ -10,7 +10,7 @@ const DataDeletion = () => {
             <ShieldAlert className="h-10 w-10 text-red-600" />
           </div>
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">User Data Deletion Request</h1>
-          <p className="text-xl text-gray-600">Subhost VTU & Automation</p>
+          <p className="text-xl text-gray-600">Subhostbot & Automation</p>
         </div>
 
         <div className="prose prose-blue max-w-none space-y-12">
