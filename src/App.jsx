@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import DataDeletion from './pages/DataDeletion';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 // ScrollToTop component to handle route changes
@@ -30,6 +31,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/data-deletion" element={<DataDeletion />} />
             {/* Fallback for undefined routes */}
             <Route path="*" element={<Home />} />
           </Routes>
