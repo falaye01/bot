@@ -16,7 +16,8 @@ import {
   Copy,
   CheckCircle2,
   Lock,
-  Globe
+  Globe,
+  ShieldCheck
 } from 'lucide-react';
 import { cn } from '../utils';
 import DashboardLayout from '../components/DashboardLayout';
