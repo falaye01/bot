@@ -17,7 +17,8 @@ import {
   CheckCircle2,
   Lock,
   Globe,
-  ShieldCheck
+  ShieldCheck,
+  MessageSquare
 } from 'lucide-react';
 import { cn } from '../utils';
 import DashboardLayout from '../components/DashboardLayout';
