@@ -28,7 +28,14 @@ const ScrollToTop = () => {
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
   
-  if (loading) return null; // Or a loading spinner
+  if (loading) {
+    return (
+      <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
+        <div className="h-12 w-12 border-4 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
+        <p className="text-gray-500 font-bold animate-pulse">Loading your account...</p>
+      </div>
+    );
+  }
   
   if (!user) {
     return <Navigate to="/login" replace />;

@@ -15,6 +15,7 @@ import {
   CreditCard
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { cn } from '../utils';
 
 const Dashboard = () => {
   const { user, logout } = useAuth();
