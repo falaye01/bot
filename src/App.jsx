@@ -45,9 +45,12 @@ const ProtectedRoute = ({ children }) => {
 };
 
 function AppContent() {
+  const location = useLocation();
+  const isDashboard = location.pathname.startsWith('/dashboard');
+
   return (
     <div className="flex flex-col min-h-screen font-sans antialiased text-gray-900 bg-white">
-      <Navbar />
+      {!isDashboard && <Navbar />}
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -61,7 +64,7 @@ function AppContent() {
           
           {/* Protected Routes */}
           <Route 
-            path="/dashboard" 
+            path="/dashboard/*" 
             element={
               <ProtectedRoute>
                 <Dashboard />
@@ -73,8 +76,8 @@ function AppContent() {
           <Route path="*" element={<Home />} />
         </Routes>
       </div>
-      <Footer />
-      <FloatingWhatsApp />
+      {!isDashboard && <Footer />}
+      {!isDashboard && <FloatingWhatsApp />}
     </div>
   );
 }
