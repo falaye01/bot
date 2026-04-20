@@ -12,21 +12,21 @@ const TermsOfService = () => {
         <div className="prose prose-blue max-w-none space-y-12">
           <section className="bg-primary-50 p-6 rounded-2xl border border-primary-100 mb-8">
             <p className="text-primary-800 font-bold">
-              This service is owned and operated by Subhost Data Service, providing automated VTU services via Subhost Bot.
+              This service is owned and operated by Subhost Data Service, providing automated VTU services via Subhostbot.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Agreement to Terms</h2>
             <p className="text-gray-600 leading-relaxed">
-              By accessing and using our website and automated WhatsApp bot ("Subhost Bot"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+              By accessing and using our website and automated WhatsApp bot ("Subhostbot"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Description of Services</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Subhost Bot provides:
+              Subhostbot provides:
             </p>
             <ul className="list-disc pl-6 space-y-3 text-gray-600">
               <li><strong>Automated VTU Services:</strong> Instant airtime recharge, data bundles, and utility bill payments for major Nigerian telecommunication networks via WhatsApp.</li>

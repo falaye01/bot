@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Business Info */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gray-900">Subhost Bot</h3>
+            <h3 className="text-xl font-bold text-gray-900">Subhostbot</h3>
             <p className="text-gray-600 max-w-sm">
-              Subhost Bot is an automated WhatsApp service owned and operated by Subhost Data Service, providing fast and affordable data, airtime, and VTU solutions.
+              Subhostbot is an automated WhatsApp service owned and operated by Subhost Data Service, providing fast and affordable data, airtime, and VTU solutions.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="mailto:subhostbot@gmail.com" className="text-gray-400 hover:text-primary-600 transition-colors">
@@ -60,7 +60,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-500 text-sm">
-            © {new Date().getFullYear()} Subhost Bot. All rights reserved. 
+            © {new Date().getFullYear()} Subhostbot. All rights reserved. 
             <span className="block sm:inline sm:ml-2 mt-2 sm:mt-0 font-bold">Owned and Operated by Subhost Data Service.</span>
           </p>
         </div>

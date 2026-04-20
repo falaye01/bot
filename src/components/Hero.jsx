@@ -38,7 +38,7 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-5xl lg:text-7xl font-extrabold text-gray-900 leading-tight"
             >
-              Subhost Bot <br />
+              Subhostbot <br />
               <span className="text-primary-600 text-3xl lg:text-4xl">Powered by Subhost Data Service</span>
             </motion.h1>
             
@@ -48,7 +48,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg text-gray-600 max-w-2xl leading-relaxed"
             >
-              Subhost Bot is an automated WhatsApp service powered by Subhost Data Service, providing fast and affordable data, airtime, and VTU solutions instantly.
+              Subhostbot is an automated WhatsApp service powered by Subhost Data Service, providing fast and affordable data, airtime, and VTU solutions instantly.
             </motion.p>
             
             <motion.div 
