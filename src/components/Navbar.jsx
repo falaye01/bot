@@ -1,19 +1,10 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X, Smartphone, User, LogOut, LayoutDashboard } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { Link } from 'react-router-dom';
+import { Menu, X, Smartphone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { user, logout } = useAuth();
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    logout();
-    setIsOpen(false);
-    navigate('/');
-  };
 
   return (
     <nav className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-gray-100">
@@ -31,37 +22,16 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Home</Link>
-            <Link to="/privacy-policy" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Privacy</Link>
-            
-            {user ? (
-              <>
-                <Link 
-                  to="/dashboard" 
-                  className="flex items-center space-x-2 bg-primary-50 text-primary-600 px-5 py-2.5 rounded-2xl font-bold hover:bg-primary-100 transition-all border border-primary-100"
-                >
-                  <LayoutDashboard className="h-4 w-4" />
-                  <span>Dashboard</span>
-                </Link>
-                <div className="h-8 w-[1px] bg-gray-100 mx-2"></div>
-                <button
-                  onClick={handleLogout}
-                  className="flex items-center space-x-2 text-gray-400 hover:text-red-500 font-bold transition-colors"
-                >
-                  <LogOut className="h-5 w-5" />
-                  <span>Logout</span>
-                </button>
-              </>
-            ) : (
-              <>
-                <Link to="/login" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Login</Link>
-                <Link 
-                  to="/signup" 
-                  className="bg-primary-600 text-white px-6 py-2.5 rounded-2xl font-bold hover:bg-primary-700 shadow-lg shadow-primary-200 transition-all transform hover:-translate-y-0.5 active:scale-95"
-                >
-                  Get Started
-                </Link>
-              </>
-            )}
+            <Link to="/privacy-policy" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Terms of Service</Link>
+            <a 
+              href="https://wa.me/2347067182336" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-primary-600 text-white px-6 py-2.5 rounded-2xl font-bold hover:bg-primary-700 shadow-lg shadow-primary-200 transition-all transform hover:-translate-y-0.5 active:scale-95"
+            >
+              Contact on WhatsApp
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -100,45 +70,20 @@ const Navbar = () => {
               >
                 Privacy Policy
               </Link>
-              
-              <div className="pt-4 border-t border-gray-100 mt-4 space-y-3">
-                {user ? (
-                  <>
-                    <Link 
-                      to="/dashboard" 
-                      className="flex items-center space-x-3 px-4 py-4 rounded-2xl bg-primary-600 text-white font-bold shadow-lg shadow-primary-200"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      <LayoutDashboard className="h-5 w-5" />
-                      <span>Go to Dashboard</span>
-                    </Link>
-                    <button 
-                      onClick={handleLogout}
-                      className="w-full flex items-center space-x-3 px-4 py-4 rounded-2xl text-red-500 font-bold hover:bg-red-50 transition-all"
-                    >
-                      <LogOut className="h-5 w-5" />
-                      <span>Logout Account</span>
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <Link 
-                      to="/login" 
-                      className="block px-4 py-4 rounded-2xl text-center text-primary-600 font-black bg-primary-50"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Login
-                    </Link>
-                    <Link 
-                      to="/signup" 
-                      className="block px-4 py-4 rounded-2xl text-center text-white font-black bg-primary-600 shadow-lg shadow-primary-200"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Sign Up Free
-                    </Link>
-                  </>
-                )}
-              </div>
+              <Link 
+                to="/terms" 
+                className="block px-4 py-3 rounded-2xl text-base font-bold text-gray-700 hover:text-primary-600 hover:bg-primary-50 transition-all"
+                onClick={() => setIsOpen(false)}
+              >
+                Terms of Service
+              </Link>
+              <a 
+                href="https://wa.me/2347067182336" 
+                className="block px-4 py-4 rounded-2xl text-center text-white font-black bg-primary-600 shadow-lg shadow-primary-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Contact on WhatsApp
+              </a>
             </div>
           </motion.div>
         )}

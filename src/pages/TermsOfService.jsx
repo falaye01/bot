@@ -19,7 +19,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Agreement to Terms</h2>
             <p className="text-gray-600 leading-relaxed">
-              By accessing and using our website and WhatsApp bot ("Subhost Bot"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+              By accessing and using our website and automated WhatsApp bot ("Subhost Bot"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
             </p>
           </section>
 
@@ -29,8 +29,7 @@ const TermsOfService = () => {
               Subhost Bot provides:
             </p>
             <ul className="list-disc pl-6 space-y-3 text-gray-600">
-              <li><strong>VTU Services:</strong> Instant airtime recharge, data bundles, and utility bill payments for major Nigerian telecommunication networks.</li>
-              <li><strong>WhatsApp Bot Automation:</strong> Automated interaction and customer service tools via the WhatsApp platform.</li>
+              <li><strong>Automated VTU Services:</strong> Instant airtime recharge, data bundles, and utility bill payments for major Nigerian telecommunication networks via WhatsApp.</li>
             </ul>
           </section>
 

@@ -23,7 +23,7 @@ const DataDeletion = () => {
           <section className="bg-gray-50 p-8 rounded-3xl border border-gray-100">
             <p className="text-gray-700 leading-relaxed text-lg">
               At <strong>Subhost Bot</strong>, we respect your privacy and give you full control over your data. 
-              If you would like to request the deletion of your personal data (such as your phone number or chat interactions), 
+              If you would like to request the deletion of your personal data (such as your phone number or chat interactions) collected via our WhatsApp bot, 
               please follow the instructions below.
             </p>
           </section>

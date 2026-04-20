@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
             <p className="text-gray-600 leading-relaxed">
-              Welcome to Subhost Bot ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and protect your data when you use our VTU services and WhatsApp automation bot.
+              Welcome to Subhost Bot ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and protect your data when you use our automated WhatsApp bot service.
             </p>
           </section>
 

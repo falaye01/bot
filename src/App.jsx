@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -7,11 +7,7 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import DataDeletion from './pages/DataDeletion';
-import LoginPage from './pages/LoginPage';
-import SignupPage from './pages/SignupPage';
-import Dashboard from './pages/Dashboard';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
-import { AuthProvider, useAuth } from './context/AuthContext';
 
 // ScrollToTop component to handle route changes
 const ScrollToTop = () => {
@@ -24,72 +20,32 @@ const ScrollToTop = () => {
   return null;
 };
 
-// Protected Route Component
-const ProtectedRoute = ({ children }) => {
-  const { user, loading } = useAuth();
-  
-  if (loading) {
-    return (
-      <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
-        <div className="h-12 w-12 border-4 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
-        <p className="text-gray-500 font-bold animate-pulse">Loading your account...</p>
-      </div>
-    );
-  }
-  
-  if (!user) {
-    return <Navigate to="/login" replace />;
-  }
-  
-  return children;
-};
-
 function AppContent() {
-  const location = useLocation();
-  const isDashboard = location.pathname.startsWith('/dashboard');
-
   return (
     <div className="flex flex-col min-h-screen font-sans antialiased text-gray-900 bg-white">
-      {!isDashboard && <Navbar />}
+      <Navbar />
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />
           <Route path="/data-deletion" element={<DataDeletion />} />
-          
-          {/* Auth Routes */}
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignupPage />} />
-          
-          {/* Protected Routes */}
-          <Route 
-            path="/dashboard/*" 
-            element={
-              <ProtectedRoute>
-                <Dashboard />
-              </ProtectedRoute>
-            } 
-          />
-          
           {/* Fallback for undefined routes */}
           <Route path="*" element={<Home />} />
         </Routes>
       </div>
-      {!isDashboard && <Footer />}
-      {!isDashboard && <FloatingWhatsApp />}
+      <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
-        <ScrollToTop />
-        <AppContent />
-      </Router>
-    </AuthProvider>
+    <Router>
+      <ScrollToTop />
+      <AppContent />
+    </Router>
   );
 }
 
