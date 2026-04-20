@@ -24,7 +24,7 @@ const Navbar = () => {
               <div className="bg-primary-600 p-1.5 rounded-xl group-hover:scale-110 transition-transform shadow-lg shadow-primary-200">
                 <Smartphone className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-black text-gray-900 tracking-tight">Subhostbot</span>
+              <span className="text-2xl font-black text-gray-900 tracking-tight">Subhost Bot</span>
             </Link>
           </div>
 
