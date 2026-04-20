@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900">Email Us</h4>
-                  <p className="text-gray-600 mt-1">subhostbot@gmail.com</p>
+                  <p className="text-gray-600 mt-1">subhost32@gmail.com</p>
                 </div>
               </div>
               
@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900">Call Us</h4>
-                  <p className="text-gray-600 mt-1">+234 706 718 2336</p>
+                  <p className="text-gray-600 mt-1">+234 806 367 6047</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ const Contact = () => {
 
             <div className="pt-8">
               <a 
-                href="https://wa.me/2347067182336" 
+                href="https://wa.me/2348063676047" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-3 bg-primary-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-primary-700 shadow-xl shadow-primary-200 transition-all transform hover:-translate-y-0.5"

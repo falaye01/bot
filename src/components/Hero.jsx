@@ -58,7 +58,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-4"
             >
               <a 
-                href="https://wa.me/2347067182336" 
+                href="https://wa.me/2348063676047" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center space-x-2 bg-primary-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-primary-700 shadow-lg shadow-primary-200 transition-all transform hover:-translate-y-1 active:scale-95"

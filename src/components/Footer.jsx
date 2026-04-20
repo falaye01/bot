@@ -14,10 +14,10 @@ const Footer = () => {
               Subhostbot is an automated WhatsApp service owned and operated by Subhost Data Service, providing fast and affordable data, airtime, and VTU solutions.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="mailto:subhostbot@gmail.com" className="text-gray-400 hover:text-primary-600 transition-colors">
+              <a href="mailto:subhost32@gmail.com" className="text-gray-400 hover:text-primary-600 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="https://wa.me/2347067182336" className="text-gray-400 hover:text-primary-600 transition-colors">
+              <a href="https://wa.me/2348063676047" className="text-gray-400 hover:text-primary-600 transition-colors">
                 <MessageCircle className="h-5 w-5" />
               </a>
             </div>
@@ -48,11 +48,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-primary-600 mr-3 mt-0.5" />
-                <span className="text-gray-600">subhostbot@gmail.com</span>
+                <span className="text-gray-600">subhost32@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Smartphone className="h-5 w-5 text-primary-600 mr-3 mt-0.5" />
-                <span className="text-gray-600">+234 706 718 2336</span>
+                <span className="text-gray-600">+234 806 367 6047</span>
               </li>
             </ul>
           </div>

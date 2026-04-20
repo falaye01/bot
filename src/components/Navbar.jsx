@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/privacy-policy" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="text-gray-500 hover:text-primary-600 font-bold transition-colors">Terms of Service</Link>
             <a 
-              href="https://wa.me/2347067182336" 
+              href="https://wa.me/2348063676047" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-primary-600 text-white px-6 py-2.5 rounded-2xl font-bold hover:bg-primary-700 shadow-lg shadow-primary-200 transition-all transform hover:-translate-y-0.5 active:scale-95"
@@ -78,7 +78,7 @@ const Navbar = () => {
                 Terms of Service
               </Link>
               <a 
-                href="https://wa.me/2347067182336" 
+                href="https://wa.me/2348063676047" 
                 className="block px-4 py-4 rounded-2xl text-center text-white font-black bg-primary-600 shadow-lg shadow-primary-200"
                 onClick={() => setIsOpen(false)}
               >
