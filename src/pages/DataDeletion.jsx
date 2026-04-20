@@ -42,7 +42,7 @@ const DataDeletion = () => {
               <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
                 <MessageCircle className="h-8 w-8 text-green-500 mb-4" />
                 <h3 className="font-bold text-gray-900 mb-2">Via WhatsApp</h3>
-                <p className="text-gray-600">Message us on WhatsApp using your registered number.</p>
+                <p className="text-gray-600">Message us at: <br /><span className="font-semibold text-primary-600">+234 806 367 6047</span></p>
               </div>
             </div>
           </section>

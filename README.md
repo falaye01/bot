@@ -19,5 +19,5 @@ Professional VTU and WhatsApp Automation business website.
 This project is ready for deployment on Vercel or Netlify.
 
 ## Contact
-Email: subhostbot@gmail.com
-WhatsApp: +234 706 718 2336
+Email: subhost32@gmail.com
+WhatsApp: +234 806 367 6047

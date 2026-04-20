@@ -84,8 +84,13 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Contact Us</h2>
             <p className="text-gray-600 leading-relaxed">
-              If you have any questions about these Terms of Service, please contact us at subhost32@gmail.com.
+              If you have any questions about these Terms of Service, please contact us at:
             </p>
+            <div className="mt-4 p-6 bg-gray-50 rounded-xl border border-gray-100">
+              <p className="text-gray-900 font-bold">Subhost Data Service Support</p>
+              <p className="text-gray-600">Email: subhost32@gmail.com</p>
+              <p className="text-gray-600">WhatsApp: +234 806 367 6047</p>
+            </div>
           </section>
         </div>
       </div>
