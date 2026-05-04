@@ -51,8 +51,8 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-primary-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-gray-900">Our Location</h4>
-                  <p className="text-gray-600 mt-1">Lagos, Nigeria</p>
+                  <h4 className="text-lg font-bold text-gray-900">Office Location</h4>
+                  <p className="text-gray-600 mt-1">Lagos State, Nigeria</p>
                 </div>
               </div>
             </div>

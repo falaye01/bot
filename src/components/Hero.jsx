@@ -38,8 +38,8 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-5xl lg:text-7xl font-extrabold text-gray-900 leading-tight"
             >
-              Subhostbot <br />
-              <span className="text-primary-600 text-3xl lg:text-4xl">Powered by Subhost Data Service</span>
+              Subhost Data <br />
+              <span className="text-primary-600 text-3xl lg:text-4xl">Service & Automation</span>
             </motion.h1>
             
             <motion.p 
@@ -48,7 +48,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg text-gray-600 max-w-2xl leading-relaxed"
             >
-              Subhostbot is an automated WhatsApp service powered by Subhost Data Service, providing fast and affordable data, airtime, and VTU solutions instantly.
+              The official platform for Subhost Data Service. We provide professional VTU solutions and enterprise-grade WhatsApp automation for businesses and individuals across Nigeria.
             </motion.p>
             
             <motion.div 
@@ -97,7 +97,7 @@ const Hero = () => {
                 >
                   <MessageSquare className="h-10 w-10 text-white" />
                 </motion.div>
-                <h3 className="text-xl font-bold text-gray-900">Subhostbot</h3>
+                <h3 className="text-xl font-bold text-gray-900">Subhost Data Service</h3>
                 <p className="text-sm text-gray-500">Automated VTU & Bot Assistant</p>
                 <div className="w-full space-y-3">
                   <motion.div 

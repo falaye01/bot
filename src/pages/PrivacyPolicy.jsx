@@ -12,14 +12,14 @@ const PrivacyPolicy = () => {
         <div className="prose prose-blue max-w-none space-y-12">
           <section className="bg-primary-50 p-6 rounded-2xl border border-primary-100 mb-8">
             <p className="text-primary-800 font-bold">
-              This service is owned and operated by Subhost Data Service, providing automated VTU services via Subhostbot.
+              Subhost Data Service is the sole owner and operator of this platform and its associated automation services.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
             <p className="text-gray-600 leading-relaxed">
-              Welcome to Subhostbot ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and protect your data when you use our automated WhatsApp bot service.
+              Welcome to Subhost Data Service ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and protect your data when you use our official website and automated WhatsApp services.
             </p>
           </section>
 
@@ -72,7 +72,14 @@ const PrivacyPolicy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Contact Us</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Compliance with WhatsApp Business Policy</h2>
+            <p className="text-gray-600 leading-relaxed">
+              Subhost Data Service strictly adheres to the WhatsApp Business Policy and Commerce Policy. We ensure that our automated services are used only for authorized communications and that user consent is obtained before sending any messages.
+            </p>
+          </section>
+
+          <section id="contact">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact Us</h2>
             <p className="text-gray-600 leading-relaxed">
               If you have any questions or concerns about this Privacy Policy, please contact us at:
             </p>

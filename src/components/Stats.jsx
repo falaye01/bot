@@ -35,7 +35,7 @@ const Stats = () => {
             viewport={{ once: true }}
             className="text-lg text-primary-200"
           >
-            Our infrastructure is built for scale, reliability, and speed. Join thousands of users who trust Subhostbot every day.
+            Our infrastructure is built for scale, reliability, and speed. Join thousands of users who trust Subhost Data Service every day.
           </motion.p>
         </div>
 

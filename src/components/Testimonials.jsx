@@ -7,7 +7,7 @@ const Testimonials = () => {
     {
       name: 'Adewale Kunle',
       role: 'VTU Business Owner',
-      quote: 'Subhostbot has transformed my VTU business. The instant processing and reliable API integration are second to none in Nigeria.',
+      quote: 'Subhost Data Service has transformed my VTU business. The instant processing and reliable API integration are second to none in Nigeria.',
       rating: 5,
     },
     {
@@ -48,7 +48,7 @@ const Testimonials = () => {
             viewport={{ once: true }}
             className="mt-6 text-lg text-gray-600 leading-relaxed"
           >
-            See why people across Nigeria trust Subhostbot for their digital service needs.
+            See why people across Nigeria trust Subhost Data Service for their digital service needs.
           </motion.p>
         </div>
 

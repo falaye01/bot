@@ -60,7 +60,7 @@ const Features = () => {
             viewport={{ once: true }}
             className="mt-6 text-lg text-gray-600 leading-relaxed"
           >
-            From instant mobile top-ups to sophisticated WhatsApp automation, Subhostbot provides all the tools required to grow your business.
+            From instant mobile top-ups to sophisticated WhatsApp automation, Subhost Data Service provides all the tools required to grow your business.
           </motion.p>
         </div>
 

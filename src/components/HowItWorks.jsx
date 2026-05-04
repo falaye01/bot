@@ -42,7 +42,7 @@ const HowItWorks = () => {
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
             className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight"
-          >How Subhostbot Works</motion.h3>
+          >How Subhost Data Service Works</motion.h3>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
